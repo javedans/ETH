@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: stg_transactions
+      description: This is Etherum BlockChain project
+      columns:
+        - name: hash
+          description: > 
+              This is long
+              mulltiline column description
+          data_tests:
+            - unique
+            - not_null 
