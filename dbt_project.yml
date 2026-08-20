@@ -38,9 +38,6 @@ models:
         - report
       +schema: marts
 
-    # Config indicated by + and applies to all files under models/example/
-    # example:
-    #  +materialized: view
 
 vars:
   token_address_var: '0x50327c6c5a14dcade707abad2e27eb517df87ab5'
